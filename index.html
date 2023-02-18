@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header id="header">
+			<img src="" id="header-img" />
+			<h1>Product Name</h1>
+			<nav id="nav-bar">
+				<ul>
+					<li><a class="nav-link" href="#home">Home</a></li>
+					<li><a class="nav-link" href="#about">About Us</a></li>
+					<li><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="home">
+			<video width="320" height="240" controls>
+				<source src="movie.mp4" type="video/mp4" />
+				<source src="movie.ogg" type="video/ogg" />
+			</video>
+		</div>
+		<div id="about"></div>
+		<div id="contact">
+			<form id="form" action="">
+				<label for="email">Email</label>
+				<input
+					type="email"
+					id="email"
+					name="email"
+					placeholder="Your Email"
+					required
+				/>
+				<label for="subject">Subject</label>
+				<input
+					type="text"
+					id="subject"
+					name="subject"
+					placeholder="Subject"
+					required
+				/>
+				<label for="message">Message</label>
+				<textarea
+					id="message"
+					name="message"
+					placeholder="Message"
+					required
+				></textarea>
+				<input type="submit" value="Submit" />
+
+				<button type="button" id="submit">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
