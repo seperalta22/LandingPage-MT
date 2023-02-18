@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #232323;
+    color: white;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #131313;
+    box-shadow: 0 0 10px #0000001a;
+    display: flex;
+    justify-content: space-around;
+    color: white
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    list-style: none;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo {
+    display: flex;
+}
+
+#home {
+    margin-top: 80px;
+    width: 100%;
+}
+
+#home iframe {
+    width: 100%;
+}
+
+
+#about {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.grid img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+#contact h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#form {
+    margin-top: 80px;
+    width: 500px;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rebeccapurple;
+}
+
+#form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+#form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+#button {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background-color: #131313;
+    cursor: pointer;
+    width: 30px;
+}

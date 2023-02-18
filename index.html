@@ -5,29 +5,53 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
 		<header id="header">
-			<img src="" id="header-img" />
-			<h1>Product Name</h1>
+			<!-- cosmetics logo -->
+			<div id="logo">
+				<img class="logo" src="images/logo.jpg" alt="logo" />
+				<h1>Cosmetics Store</h1>
+			</div>
 			<nav id="nav-bar">
-				<ul>
-					<li><a class="nav-link" href="#home">Home</a></li>
-					<li><a class="nav-link" href="#about">About Us</a></li>
-					<li><a class="nav-link" href="#contact">Contact</a></li>
-				</ul>
+				<a class="nav-link" href="#home">Home</a>
+				<a class="nav-link" href="#about">About Us</a>
+				<a class="nav-link" href="#contact">Contact</a>
 			</nav>
 		</header>
 
 		<div id="home">
-			<video width="320" height="240" controls>
-				<source src="movie.mp4" type="video/mp4" />
-				<source src="movie.ogg" type="video/ogg" />
-			</video>
+			<iframe
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/546jjH5vbBc"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
 		</div>
-		<div id="about"></div>
+		<div id="about">
+			<h2>About Us</h2>
+			<div class="grid">
+				<img src="images/banner.png" alt="image" />
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Maxime nemo excepturi optio, laborum voluptatem fugiat,
+					quisquam tempore enim a delectus corrupti vitae tempora quas
+					reprehenderit provident iusto numquam vel odio.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Maxime nemo excepturi optio, laborum voluptatem fugiat,
+					quisquam tempore enim a delectus corrupti vitae tempora quas
+					reprehenderit provident iusto numquam vel odio.
+				</p>
+			</div>
+		</div>
 		<div id="contact">
+			<h3>Get in touch</h3>
 			<form id="form" action="">
 				<label for="email">Email</label>
 				<input
@@ -52,9 +76,7 @@
 					placeholder="Message"
 					required
 				></textarea>
-				<input type="submit" value="Submit" />
-
-				<button type="button" id="submit">Submit</button>
+				<input id="button" type="submit" value="Submit" />
 			</form>
 		</div>
 	</body>
